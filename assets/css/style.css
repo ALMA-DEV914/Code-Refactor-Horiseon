@@ -79,11 +79,8 @@ header nav ul li a{
     color: #ffffff;
     
 }
-.text-left {
-    text-align: left;
-}
 .article-content img {
-    max-width: 350px;
+    max-width: 300px;
 }
 
 .article-content h2 {

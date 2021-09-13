@@ -1,94 +1,99 @@
+/* Design the main page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/* Design the body */
 body {
     background-color: #d9dcd6;
 }
-
+/* Design the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Design the header h1 */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-header h1 .seo {
+/* Design the header h1 span */
+header h1 span{
     color: #d9dcd6;
 }
-
+/* Design the header navigation */
 header nav {
     padding-top: 15px;
-    margin-right: 20px;
+    margin: 0 20px;
     float: right;
     font-size: 20px;
 }
-
+/* Design the header nav ul li */
 header nav ul li {
     list-style-type: none;
     display: inline-block;
-    margin-left: 25px; 
+    margin:0 0 0 25px; 
 }
+/* Design the header nav ul li link */
 header nav ul li a{
     color: #ffffff;
     text-decoration: none;
 }
-
-.content p {
-    font-size: 23px;
-    line-height: 1.5;
-}
-
+/* Design the hero section */
 .hero {
     height: 800px;
     width: 100%;
-    margin-bottom: 25px;
+    margin:0 0 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
-
+/* Design the class content */
 .content {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    margin: 0 0 0 20px ;
     
 }
-.float-left {
+/* Design the class content */
+.content p {
+    font-size: 23px;
+    line-height: 1.5;
+}
+/* Design the class article-img */
+.article-img {
     float: left;
-    margin-right: 25px;
+    margin: 0 25px 0 0;
 }
-
-.float-right {
+/* Design the class article-img-right */
+.article-img-right {
     float: right;
-    margin-left: 25px;
+    margin:0 0 25px;
 }
-
+/* Design the class article-content */
 .article-content {
-    margin-bottom: 20px;
+    margin:0 0 20px;
     padding: 50px;
     background-color: #0072bb;
     color: #ffffff;
     
 }
+/* Design the class article-content image */
 .article-content img {
     max-width: 300px;
 }
-
+/* Design the class article-content h2 */
 .article-content h2 {
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
     font-size: 36px;
 }
+/* Design the class benefits */
 .benefits {
-    margin-right: 20px;
+    margin: 0 20px;
     padding: 20px;
     clear: both;
     float: right;
@@ -96,73 +101,34 @@ header nav ul li a{
     height: 100%;
     background-color: #2589bd;
 }
+/* Design the class benefits paragraph */
 .benefits p {
     font-size: 18px;
 }
-.benefit-lead {
+/* dEsign the class benifit-item */
+.benefit-item {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Design the class benefit-item h3 */
+.benefit-item h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Design the class benefits-item img */
+.benefit-item img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.article-content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
-    overflow: auto;
-}
-
+/* design the footer */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Design the footer h2 */
 footer h2 {
     font-size: 20px;
 }

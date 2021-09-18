@@ -5,7 +5,7 @@
   * I removed unnecessary html selector like class header and fixed the CSS rules for it.
   * I optimized the used of tag element class selector that have the same CSS rules.
   * I compressed CSS rules that have the same value.
-  * I used more specific tag elements other than div elements.
+  * I used more specific tag elements other than div elements..
 
   Here is the deployed pages of the horiseon Website: https://alma-dev914.github.io/Code-Refactor-Horiseon/
 

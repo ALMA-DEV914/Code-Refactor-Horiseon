@@ -1,6 +1,15 @@
 # Code-Refactor-Horiseon
+ 
+ ## My Action on the requirements below
+  * I was required to do all the requirements below. I fixed the class search-engine-optimization into id selector. 
+  * I removed unnecessary html selector like class header and fixed the CSS rules for it.
+  * I optimized the used of tag element class selector that have the same CSS rules.
+  * I compressed CSS rules that have the same value.
+  * I used more specific tag elements other than div elements.
 
-##Technical Requirements
+  Here is the deployed pages of the horiseon Website: https://alma-dev914.github.io/Code-Refactor-Horiseon/
+
+## Technical Requirements
 * Application's links all function correctly.
 * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
 * Application's CSS file is properly commented.
@@ -11,7 +20,7 @@
 * Application GitHub URL submitted.
 * GitHub repository that contains application code.
 
-###Application Requirements
+### Application Requirements
 * Application resembles (at least 90%) screenshots provided in challenge instructions.
 
 ##Repository Quality
